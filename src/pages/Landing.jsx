@@ -5,19 +5,21 @@ import {isMobile} from "react-device-detect";
 import TopMenu from '../components/TopMenu/TopMenu'
 import TopPage from "../components/topPage/TopPage";
 import Footer from "../components/Footer/Footer";
+import Advantages from '../components/Advantages/Advantages'
 
 const s = isMobile ? mobile : desktop
 
 class Landing extends Component {
-    render() {
-        return (
-            <div className={s.container}>
-                <TopMenu/>
-                <TopPage/>
-                <Footer/>
-            </div>
-        )
-    }
+  render(){
+    return(
+      <div className={s.container}>
+        <TopMenu />
+        <TopPage />
+        <Advantages />
+        <Footer/>
+      </div>
+    )
+  }
 }
 
 export default Landing
