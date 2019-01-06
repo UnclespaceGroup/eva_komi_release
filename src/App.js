@@ -1,15 +1,12 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from 'react'
 import Landing from './pages/Landing'
 
 class App extends Component {
-  render() {
+  render () {
     return (
-      <div className="App">
-        <Landing />
-      </div>
-    );
+      <Landing />
+    )
   }
 }
 
-export default App;
+export default App

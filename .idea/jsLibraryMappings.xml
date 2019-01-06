@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="file://$PROJECT_DIR$" libraries="{eva_komi_release/node_modules}" />
+    <file url="PROJECT" libraries="{@types/jest, eva_komi_release/node_modules}" />
+    <includedPredefinedLibrary name="HTTP Response Handler" />
+  </component>
+</project>
