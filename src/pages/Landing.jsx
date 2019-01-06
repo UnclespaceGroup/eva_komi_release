@@ -3,6 +3,7 @@ import desktop from './css/desktop.module.scss'
 import mobile from './css/mobile.module.scss'
 import { isMobile } from "react-device-detect";
 import TopMenu from '../components/TopMenu/TopMenu'
+import TopPage from "../components/topPage/TopPage";
 
 const s = isMobile ? mobile : desktop
 
@@ -11,6 +12,7 @@ class Landing extends Component {
     return(
       <div className={s.container}>
         <TopMenu />
+        <TopPage />
       </div>
     )
   }
