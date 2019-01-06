@@ -1,5 +1,31 @@
 @import 'desktop.module';
 .container{
-  width: 32rem;
-  background-color: white;
+
+}
+.items {
+  display: block;
+  justify-content: space-around;
+  padding: 1rem 1rem 1rem;
+  margin-bottom: 1rem;
+  a {
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    &.item {
+
+    }
+    &.button {
+      width: 40%;
+    }
+  }
+  .top{
+    display: flex;
+    justify-content: space-between;
+  }
+  .burger{
+    height: 3rem;
+    width: 3rem;
+    background: url('../../../static/burger.svg') center;
+    background-size: 3rem 3rem;
+  }
 }
