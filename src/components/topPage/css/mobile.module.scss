@@ -1,5 +1,14 @@
 @import 'desktop.module';
-.container{
-  width: 32rem;
-  background-color: white;
+.title{
+  top: 6rem;
+  left: 2rem;
+  h1{
+    font-size: 2rem;
+    padding-left: 0;
+  }
+}
+.description{
+  bottom: 5rem;
+  left: 3rem;
+  transform: translateX(-2rem);
 }
