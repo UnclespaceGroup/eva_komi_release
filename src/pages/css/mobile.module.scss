@@ -1,17 +1,17 @@
 @import 'desktop.module';
-.container{
+
+.container {
   background-color: white;
 }
-:global{
-  html {
-    font-size: 16px;
 
+html {
+  // font-size: 16px;
+}
 
-  }
-  body{
-    font-family: 'Open Sans', sans-serif;
-  }
-  a{
-    text-decoration: none;
-  }
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
 }

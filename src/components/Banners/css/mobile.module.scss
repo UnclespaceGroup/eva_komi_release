@@ -1,25 +1,27 @@
 @import 'desktop.module';
 .background{
-  padding: 0 ;
+
 }
 .container{
   width: 100%;
   display: block;
-}
-.wrapper{
-  text-align: center;
-  width: 100%;
-  .image{
-    height: 10rem;
+  .left{
     width: 100%;
-    background: no-repeat center top;
-    background-size: contain;
   }
-  .title{
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
+  .right{
+    padding: 0 2.5rem;
+    width: auto;
   }
-  .text{
-    font-size: .8rem;
-  }
+}
+.image{
+  width: 100%;
+  height: 30rem;
+  background: no-repeat center;
+  background-size: contain;
+}
+.title{
+  font-size: 2.3rem;
+}
+.description{
+
 }

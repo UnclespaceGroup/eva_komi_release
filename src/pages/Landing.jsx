@@ -6,6 +6,7 @@ import TopMenu from '../components/TopMenu/TopMenu'
 import TopPage from "../components/topPage/TopPage";
 import Footer from "../components/Footer/Footer";
 import Advantages from '../components/Advantages/Advantages'
+import Banner from '../components/Banners/Banner'
 
 const s = isMobile ? mobile : desktop
 
@@ -16,6 +17,8 @@ class Landing extends Component {
         <TopMenu />
         <TopPage />
         <Advantages />
+        <div id="price" />
+        <Banner/>
         <Footer/>
       </div>
     )

@@ -1,19 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
-:global{
   img {
     max-width: 100%;
   }
   html {
     // font-size: 10px;
-    font-size: calc( 100vw / 1280 * 16 );
+    font-size: calc( 100vw / 1280 * 10 );
 
-    //@media all and (max-width: 1023px) {
-    //  font-size: calc( 100vw / 768 * 10 );
-    //}
-    //
-    //@media all and (max-width: 767px) {
-    //  font-size: calc( 100vw / 320 * 10 );
-    //}
+    @media all and (max-width: 1023px) {
+      font-size: calc( 100vw / 1280 * 10 );
+    }
+
+    @media all and (max-width: 767px) {
+      font-size: calc( 100vw / 320 * 10 );
+    }
 
   }
   body{
@@ -22,4 +21,3 @@
   a{
     text-decoration: none;
   }
-}
