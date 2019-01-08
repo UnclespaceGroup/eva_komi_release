@@ -1,5 +1,30 @@
 .container{
   width: 100%;
+  padding: 5rem 0;
   display: flex;
   justify-content: space-around;
+  .left{
+    width: 50%;
+  }
+  .right{
+    padding: 5rem ;
+    width: 50%;
+  }
+}
+.image{
+  width: 50rem;
+  height: 30rem;
+  background: no-repeat center;
+  background-size: contain;
+}
+.title{
+  font-size: 2.3rem;
+}
+.description{
+  p{
+    font-size: 1.6rem;
+  }
+  span{
+    font-size: 2.3rem;
+  }
 }

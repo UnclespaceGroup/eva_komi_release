@@ -4,7 +4,6 @@
   background-color: rgba(0,0,0,0.9);
   padding: 1rem 0;
   color: rgba(86, 86, 86, 0.37);
-  user-select: none;
   a{
     color: rgba(86, 86, 86, 0.37);
   }
@@ -17,16 +16,18 @@
 .contacts{
   list-style: none;
   margin: 0;
+  font-size: 1.6rem;
   padding: 0;
 }
 .logo{
 
   img{
     padding: 1rem;
-    width: 6rem;
+    width: 10rem;
   }
 }
 .description{
   padding-top: 1rem;
+  font-size: 1.6rem;
   float: bottom;
 }

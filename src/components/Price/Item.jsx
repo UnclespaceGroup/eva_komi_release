@@ -17,7 +17,7 @@ class Item extends Component {
       <div className={s.wrapper}>
         <div className={s.image} style={{backgroundImage: `url(${image})`}} />
         <div className={s.title}>{title}</div>
-          <div className={s.title}>{price}</div>
+          <div className={s.title}><b>{price}</b></div>
         <div className={s.text}>{text}</div>
       </div>
     )

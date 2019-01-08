@@ -3,23 +3,15 @@ import desktop from './css/desktop.module.scss'
 import mobile from './css/mobile.module.scss'
 import { isMobile } from "react-device-detect";
 import _ from 'lodash'
+import Scrollchor from 'react-scrollchor'
 
 const s = isMobile ? mobile : desktop
 
 const t = {
   items: [
-    {
-      title: 'Быстрый заказ эвакуатора',
-      href: 'tel: 340111'
-    },
-    {
-      title: 'Цены за вызов',
-      href: 'tel: 340111'
-    },
-    {
-      title: 'Об эвакуации',
-      href: 'tel: 340111'
-    }
+    <a className={s.item} href={'tel:340111'}>Звони 340-111</a>,
+    <Scrollchor animate={{offset: 20, duration: 600}} className={s.item} to="price" >К ценам</Scrollchor>,
+    <a className={s.item} href={'http://www.consultant.ru/law/podborki/jevakuaciya_avtomobilya/'} target={' _blank'}>Об эвакуации</a>
   ]
 }
 
@@ -42,12 +34,12 @@ class TopMenu extends Component {
         <div className={s.items}>
           {
             isMobile ? open &&
-            _.map(items, ({title, href}, key) =>
-            <a className={s.item} key={key} href={href} >{title}</a>
+            _.map(items, (item, key) =>
+            <div className={s.item} key={key}>{item}</div>
             )
               :
-              _.map(items, ({title, href}, key) =>
-                <a className={s.item} key={key} href={href} >{title}</a>
+              _.map(items, (item, key) =>
+                <div className={s.item} key={key} >{item}</div>
               )
           }
           {
