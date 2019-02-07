@@ -21,7 +21,7 @@ const t = {
     {
       image: im2,
       title: 'Только позвони',
-      text: <div>Для заказа достаточно позвонить <a href={'tel:320111'}><big>320-111</big></a> </div>
+      text: <div>Для заказа достаточно позвонить <a href={'tel:320111'}><big>340-111</big></a> </div>
     },
     {
       image: im3,
