@@ -19,11 +19,11 @@ class Landing extends Component {
         <TopMenu />
         <TopPage />
         <Advantages />
+        <Banner />
         <div id="price" />
-
         <Price />
 
-        <Banner />
+
         <Description />
         <Footer />
       </div>
